@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenfield International Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Global Navigation -->
+    <nav class="global-nav" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">
+                <img src="Greenfieldacademylogo.jpeg" alt="Greenfield Academy" width="180" height="40">
+                <span class="logo-text">Greenfield Academy</span>
+            </a>
+            
+            <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Open menu" data-toggle-menu>
+                <span class="hamburger"></span>
+            </button>
+
+            <div class="nav-menu" data-nav-menu>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#academics" class="nav-link">Academics</a></li>
+                    <li><a href="#campus-life" class="nav-link">Campus Life</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="#contact" class="cta-button">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 id="hero-heading">Shaping Future Innovators</h1>
+                <p class="hero-subtitle">Where curiosity meets excellence</p>
+                <div class="hero-actions">
+                   
+                <!-- Change the explore button to -->
+                <a href="#academics" class="cta-button secondary">
+                    Learn More
+                </a>
+  
+                </div>
+            </div>
+            
+            <div class="hero-media">
+                <div class="media-container">
+                    <img src="heroimage.jpg" alt="Students collaborating" 
+                         loading="lazy" width="1200" height="800">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Stats Section -->
+    <section class="stats-grid" aria-labelledby="stats-heading">
+        <h2 id="stats-heading" class="section-heading">By The Numbers</h2>
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-value" data-counter="98">98</div>
+                <div class="stat-label">Graduation Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" data-counter="150">150</div>
+                <div class="stat-label">Academic Programs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" data-counter="25">25</div>
+                <div class="stat-label">Sports Teams</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Programs -->
+    <section class="programs-section" id="academics" aria-labelledby="programs-heading">
+        <div class="section-header">
+            <h2 id="programs-heading" class="section-heading">Featured Programs</h2>
+        </div>
+        
+        <div class="programs-grid">
+            <article class="program-card">
+                <div class="program-icon">
+                    <i class="fas fa-microscope"></i>
+                </div>
+                <h3 class="program-title">STEM Innovation</h3>
+                <p class="program-description">Advanced science and technology program with industry partnerships</p>
+                <a href="#stem-details" class="program-link">Learn More</a>
+            </article>
+            
+            <article class="program-card">
+                <div class="program-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3 class="program-title">Creative Arts</h3>
+                <p class="program-description">Comprehensive visual and performing arts curriculum</p>
+                <a href="#arts-details" class="program-link">Learn More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Interactive Campus Gallery -->
+    <section class="gallery-section" id="campus-life" aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading" class="section-heading">Campus Life</h2>
+        
+        <div class="gallery-controls">
+            <button class="gallery-filter active" data-filter="all">All</button>
+            <button class="gallery-filter" data-filter="sports">Sports</button>
+            <button class="gallery-filter" data-filter="arts">Arts</button>
+        </div>
+
+        <div class="gallery-grid">
+            <figure class="gallery-item" data-category="sports">
+                <img src="football.webp" alt="Soccer field" loading="lazy">
+                <figcaption class="image-caption">Championship Football Field</figcaption>
+            </figure>
+            <figure class="gallery-item" data-category="arts">
+                <img src="art2.jpg" alt="Art studio" loading="lazy">
+                <figcaption class="image-caption">Modern Art Studio</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2 id="contact-heading" class="section-heading">Get in Touch</h2>
+                <address class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Education Boulevard<br>Academic City, AC 12345</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+11234567890">+1 (123) 456-7890</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:admissions@greenfield.edu">admissions@greenfield.edu</a>
+                    </div>
+                </address>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="global-footer" aria-labelledby="footer-heading">
+        <div class="footer-container">
+            <div class="footer-branding">
+                <img src="Greenfieldacademylogo.jpeg" alt="Greenfield Academy" width="160" height="35">
+                <p>© 2024 Greenfield International Academy<br>All rights reserved</p>
+            </div>
+            
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <div class="footer-column">
+                    <h3 class="footer-heading">Academics</h3>
+                    <ul>
+                        <li><a href="#undergraduate">Undergraduate</a></li>
+                        <li><a href="#graduate">Graduate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3 class="footer-heading">Admissions</h3>
+                    <ul>
+                        <li><a href="#contact">Apply Now</a></li>
+                        <li><a href="#visit">Schedule Visit</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="footer-social">
+                <h3 class="footer-heading">Connect</h3>
+                <ul class="social-links">
+                    <li><a href="#facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js" defer></script>
+</body>
+</html>
