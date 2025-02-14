@@ -1,6 +1,6 @@
 # Greenfield Academy Landing Page
 
-**Live Demo:** [View Website](https://your-domain.com)  
+**Live Demo:** [View Website](https://school-website-project-bay.vercel.app/)  
 **Submission Date:** February 14, 2025
 
 ## Competition Requirements Checklist
